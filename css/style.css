@@ -1,0 +1,35 @@
+.wrapper-box{
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    position: relative;
+    /* transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+    transition-delay: 2s;
+    
+    grdzeli versia es da qvevit mokle iqneba, es transitionebi
+    yoveltvis chawere blokebshi da ara hover s sadac aketeb
+    mand, imitom rom ar imoqmedebs bolomde effect da uxeshad
+    swrafad datrialdeba, fers sheicvlis da a.sh
+    */
+    transition: all 0.5s linear 2s;
+}
+.child-box{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)rotate(45deg);
+    transition: all 0.5s ease-out;
+}
+/* hover effects */
+.wrapper-box:hover {
+    background-color: yellow; 
+}
+.child-box:hover {
+    background-color: green;
+    transform: translate(-50%,-50%) rotate(0deg);
+}
