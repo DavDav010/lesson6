@@ -1,3 +1,6 @@
+body{
+    height: 1000px;
+}
 .wrapper-box{
     width: 400px;
     height: 400px;
@@ -32,4 +35,62 @@
 .child-box:hover {
     background-color: green;
     transform: translate(-50%,-50%) rotate(0deg);
+}
+/* hover effects end */
+
+/* keyframe animation */
+/* @keyframes testanimation{
+    from{top: 0px;background-color: black;}
+    to{top: 200px;background-color: purple;}
+}
+keyframe animation is sheqmnis pirveli xerxi
+*/
+@keyframes testanimation2{
+    0%{top: 0px;}
+    25%{top: 200px;}
+    75%{top: 50px;}
+    100%{top: 100px;}
+} 
+/* meore xerxi da  meorenairi animatia */
+
+@keyframes testanimation3{
+    0%{transform: rotate(0deg);}
+    25%{transform: rotate(45deg);}
+    75%{transform: rotate(360deg);}
+    100%{transform: rotate(0deg);}
+}
+@keyframes testanimation4{
+    0%{top: 0px; left: 0px;background: greenyellow;}
+    25%{top: 0px;left: 100px; background:red ;}
+    50%{top: 100px;left: 100px; background:red ;}
+    75%{top: 100px;left: 0px; background: blue;}
+    100%{top: 0px;left: 0px; background:purple ;}
+}
+
+
+.animationbox{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    background-color: aqua;
+    /* position relative an absolute s gawera aucilebelia
+    ro imodzraos, tu arada ert adgilze iqneba da ise
+    sheicvleba. ANIMATIONS vuwert blocks da ara tviton
+    keyframes roca vqmni */
+    /* animation: testanimation 5s infinite; */
+    animation: testanimation2 5s infinite;
+}
+.animationbox1{
+    width: 80px;
+    height: 80px;
+    margin-left: 200px;
+    background-color: palevioletred;
+    animation: testanimation3 5s infinite;
+} 
+.animationbox2{
+    width: 80px;
+    height: 80px;
+    margin-left: 400px;
+    position: relative;
+    animation: testanimation4 5s infinite;
 }
