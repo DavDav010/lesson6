@@ -110,5 +110,9 @@ QVEVIT, TRANSFORM: TRANSLATE VARIANTIA */
     height: 80px;
     margin-top: 250px;
     background-color: black;
-    animation: testanimation5 5s infinite;
+    animation: testanimation5 5s infinite alternate;
+    /* animation-direction: alternate; 
+    ukan wamosvlis siswrafea da shegidzlia animation shive 
+    chauwero
+    */
 }
