@@ -66,7 +66,13 @@ keyframe animation is sheqmnis pirveli xerxi
     75%{top: 100px;left: 0px; background: blue;}
     100%{top: 0px;left: 0px; background:purple ;}
 }
-
+@keyframes testanimation5{
+    0%{transform: translateX(100px);}
+    25%{transform: translateX(200px);}
+    50%{transform: translateX(400px);}
+    75%{transform: translateX(800px);}
+    100%{transform: translateX(1000px);}
+}
 
 .animationbox{
     width: 80px;
@@ -93,4 +99,16 @@ keyframe animation is sheqmnis pirveli xerxi
     margin-left: 400px;
     position: relative;
     animation: testanimation4 5s infinite;
+}
+
+/* KIDEV ERTI MNISHVNELOVANI RAME, ROCA GINDA AMODZRAO
+RAIME ANIMACIASHI, POSITION: RELATIVE DA ABSOLUTES GARESHE,
+QVEVIT, TRANSFORM: TRANSLATE VARIANTIA */
+
+.animationbox3{
+    width: 80px;
+    height: 80px;
+    margin-top: 250px;
+    background-color: black;
+    animation: testanimation5 5s infinite;
 }
